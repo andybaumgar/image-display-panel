@@ -3,7 +3,7 @@ import { PanelProps, PanelPlugin } from '@grafana/ui';
 
 export class MyPanel extends PureComponent<PanelProps> {
   render() {
-    return <div>Hello from my panel</div>;
+    return <div>Hello from my panel</div><div>This is a test</div>;
   }
 }
 

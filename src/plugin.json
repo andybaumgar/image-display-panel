@@ -1,21 +1,21 @@
 {
   "type": "panel",
-  "name": "Simple Panel",
-  "id": "myorgid-simple-panel",
+  "name": "Image Display Panel",
+  "id": "andy-image-display-panel",
 
   "info": {
-    "description": "Simple React Panel",
+    "description": "Image Display Panel",
     "author": {
-      "name": "Your Name"
+      "name": "Andy Baumgartner"
     },
-    "keywords": ["Simple"],
+    "keywords": ["image", "photo"],
     "logos": {
       "small": "img/logo.svg",
       "large": "img/logo.svg"
     },
     "links": [
-      {"name": "Website", "url": "https://github.com/grafana/simple-react-panel"},
-      {"name": "License", "url": "https://github.com/grafana/simple-react-panel/blob/master/LICENSE"}
+      {"name": "Website", "url": "https://github.com/andybaumgar/image-display-panel"},
+      {"name": "License", "url": "https://github.com/andybaumgar/image-display-panel/blob/master/LICENSE"}
     ],
     "screenshots": [],
     "version": "%VERSION%",
