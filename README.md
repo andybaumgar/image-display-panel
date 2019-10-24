@@ -1,6 +1,8 @@
-# Simple React Panel
+# Image Display Panel
 
-This is just a stub to show how you can create a basic visualization plugin.
+Based on [Simple React Panel](https://github.com/grafana/simple-react-panel)
+
+Displays images and text metadata nicely
 
 To work with this plugin run:
 ```
