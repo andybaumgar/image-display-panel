@@ -12,9 +12,20 @@ export class SimpleEditor extends PureComponent<PanelEditorProps<SimpleOptions>>
     const { options } = this.props;
 
     return (
-      <div className="section gf-form-group">
-        <h5 className="section-heading">Display</h5>
-        <FormField label="Url" labelWidth={5} inputWidth={20} type="text" onChange={this.onTextChanged} value={options.url || ''} />
+      <div className="editor-row">
+        <div className="section gf-form-group">
+          <h5 className="section-heading">Display</h5>
+          <FormField label="Text" labelWidth={5} inputWidth={20} type="text" onChange={this.onTextChanged} value={options.url || ''} />
+        </div>
+        <div className="section gf-form-group">
+          <h5 className="section-heading">Clock options</h5>
+          <div className="gf-form">
+            <label className="gf-form-label width-9">Clock Mode</label>
+            <div className="gf-form-select-wrapper max-width-10">
+              <select className="input-medium gf-form-input"></select>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
